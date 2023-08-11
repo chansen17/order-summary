@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order Summary | Frontend Mentor</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <style>
+      body {
+        font-size: 13px;
+      }
+    </style>
+  </head>
+  <body class="h-full w-full overflow-hidden relative bg-blue-100">
+    <img src="/public/pattern-background-desktop.svg" class="-z-10 absolute top-0 left-0 h-full w-full" alt="">
+    <div class="animate animate__animated animate__fadeInBottomLeft h-64 w-64 rotate-12 rounded-full bg-gradient-to-br from-blue-600 to-purple-200 absolute bottom-1/4 left-1/2 blur-xl"></div>
+    <div class="h-screen w-full grid place-items-center">
+      <div class="max-w-xs w-full overflow-hidden rounded-2xl shadow-2xl min-h-96 h-auto animate animate__animated animate__fadeInUp bg-white/70 backdrop-blur-sm">
+        <div class="h-44 w-full bg-center" style="background-image: url(/public/illustration-hero.svg);"></div>
+        <div class="py-7 px-5 space-y-4 text-center">
+          <h2 class="text-xl md:text-2xll font-bold">Order Summary</h2>
+          <p class="text-thin text-gray-500 text-sm">You can now listen to millions of songs. audiotbooks, and podcasts on any device anywhere you like!</p>
+          <div class="w-full py-4 px-2 flex items-center gap-6 justify-between bg-blue-50/70 rounded-2xl">
+            <div class="flex items-center gap-3">
+              <img src="/public/icon-music.svg" alt="">
+              <div class="text-left">
+                <h6 class="text-sm md:text-lg font-bold">Annual Plan</h6>
+                <p class="text-xs md:text-md text-gray-500">$59.99/year</p>
+              </div>
+            </div>
+            <div class="flex items-center justify-center">
+              <a class="font-bold text-purple-600 hover:underline" href="#">Change</a>
+            </div>
+          </div>
+          <div class="space-y-2">
+            <button class="w-full bg-blue-700 py-2 text-center text-white rounded-xl font-medium">Proceed to Payment</button>
+            <button class="w-full text-center text-gray-500 rounded-xl font-medium">Cancel Order</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
